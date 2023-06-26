@@ -7,7 +7,9 @@ trigger:
 - main
 
 pool:
-  name: mydockeragent
+  name: curso-devops-azure-Pipeline_home_test
+  demands:
+   - agent.name -equals mydockeragent
 
 steps:
 - task: Maven@3
