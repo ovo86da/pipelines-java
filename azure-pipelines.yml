@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: mydockeragent
+  name: mydockeragent
 
 steps:
 - task: Maven@3
